@@ -74,7 +74,7 @@ public class Types {
 
         // Типы, которые нельзя привести
         // boolean
-        // к int.  int boleanValue = (int) isAlive;
+        // к int. int boleanValue = (int) isAlive;
         // int к String.
         int age = 36;
         //String stringAge = (String)age;
