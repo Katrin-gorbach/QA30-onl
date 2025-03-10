@@ -32,41 +32,25 @@ public class MyTasks {
         System.out.println("Please, enter month № from 1 to 12: ");
         int month = inputData().nextInt();
         switch (month) {
+            case (12):
             case (1):
-                System.out.println("You entered: " + month + ". It's winter");
-                break;
             case (2):
                 System.out.println("You entered: " + month + ". It's winter");
                 break;
             case (3):
-                System.out.println("You entered: " + month + ". It's spring");
-                break;
             case (4):
-                System.out.println("You entered: " + month + ". It's spring");
-                break;
             case (5):
                 System.out.println("You entered: " + month + ". It's spring");
                 break;
             case (6):
-                System.out.println("You entered: " + month + ". It's summer");
-                break;
             case (7):
-                System.out.println("You entered: " + month + ". It's summer");
-                break;
             case (8):
                 System.out.println("You entered: " + month + ". It's summer");
                 break;
             case (9):
-                System.out.println("You entered: " + month + ". It's autumn ");
-                break;
             case (10):
-                System.out.println("You entered: " + month + ". It's autumn");
-                break;
             case (11):
                 System.out.println("You entered: " + month + ". It's autumn");
-                break;
-            case (12):
-                System.out.println("You entered: " + month + ". It's winter");
                 break;
             default:
                 System.out.println("You entered: " + month + ". It's incorrect №");
@@ -190,7 +174,7 @@ public class MyTasks {
         //Для ввода числа воспользуйтесь классом Scanner.
         System.out.println("Please, enter positive number: ");
         int x = inputData().nextInt();
-        if (x >= 0) {
+        if (x > 0) {
             int y;
             y = x * (x + 1) / 2;
             System.out.println("Sum from 1 to " + x + " is " + y);
@@ -265,6 +249,7 @@ public class MyTasks {
     }
 
     public  static void getMultiplicationTable(){
+        //Напишите программу, которая выводит на консоль таблицу умножения.
         System.out.println("Enter number for counting multiplication table");
         int n = inputData().nextInt();
         for (int i=1; i <= n; i++) {
