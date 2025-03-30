@@ -9,7 +9,7 @@
       <excludeFolder url="file://$MODULE_DIR$/src/lesson_4_advanced_arrays/additionalloops" />
       <excludeFolder url="file://$MODULE_DIR$/src/lesson_4_advanced_arrays/methodsmore" />
       <excludeFolder url="file://$MODULE_DIR$/src/lesson_4_advanced_arrays/operatosmore" />
-      <excludeFolder url="file://$MODULE_DIR$/src/lesson_5_arrays_multi_arrays/tictactoe" />
+      <excludeFolder url="file://$MODULE_DIR$/src/lesson_5_arrays_multi_arrays/tictactoe_old" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
