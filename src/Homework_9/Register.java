@@ -1,6 +1,9 @@
-package Homework_8.AdditionTasks;
+package Homework_9;
+
+import Homework_9.Document;
 
 public abstract class Register {
+
 	//protected - доступен внутри пакета и для наследников класса
 	protected Document[] documents = new Document[10];
 	protected int index = 0;

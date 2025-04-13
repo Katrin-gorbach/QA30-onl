@@ -39,7 +39,7 @@ public class Phone {
 	}
 
 
-	public void sendMessage(String[] phoneNumbers) {
+	public void sendMessage(String... phoneNumbers) {
 		System.out.println("Сообщение будет отправлено на следующие номера:");
 		for (String phoneNumber : phoneNumbers) {
 			System.out.println(phoneNumber);

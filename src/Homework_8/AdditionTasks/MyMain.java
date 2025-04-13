@@ -4,6 +4,7 @@ import Homework_8.AdditionTasks.ContractOfGoods.GoodsContract;
 import Homework_8.AdditionTasks.ContractWithStaff.StaffContract;
 import Homework_8.AdditionTasks.FinancialInvoice.Invoice;
 
+
 import java.util.Date;
 
 public class MyMain {
@@ -24,5 +25,9 @@ public class MyMain {
 		System.out.println("**********************************");
 		concreteRegister.provideDocumentInfo(2);
 
+
 	}
+
+
+
 }

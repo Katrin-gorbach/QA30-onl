@@ -1,22 +1,25 @@
-package Homework_8.AdditionTasks.ContractWithStaff;
+package Homework_9.ContractWithStaff;
 
-import Homework_8.AdditionTasks.Document;
-
+import Homework_9.Document;
 import java.util.Date;
 
 public class StaffContract implements Document {
-	private int documentNumber;
+	private String documentNumber;
 	private Date documentDate;
 	private Date endDate;
 	private String employeeName;
 
 	public StaffContract() {}
 
-	public StaffContract(int documentNumber, Date documentDate, Date endDate, String employeeName) {
+	public StaffContract(String documentNumber, Date documentDate, Date endDate, String employeeName) {
 		this.documentNumber = documentNumber;
 		this.documentDate = documentDate;
 		this.endDate = endDate;
 		this.employeeName = employeeName;
+	}
+
+	public String getDocumentNumber() {
+		return documentNumber;
 	}
 
 	@Override

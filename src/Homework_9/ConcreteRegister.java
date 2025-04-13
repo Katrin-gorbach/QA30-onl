@@ -1,6 +1,6 @@
-package Homework_8.AdditionTasks;
+package Homework_9;
 
-public class ConcreteRegister extends Register{
+public class ConcreteRegister extends Register {
 	@Override
 	public void provideDocumentInfo(int documentIndex) {
 		if (documentIndex >= 0 && documentIndex < index) {

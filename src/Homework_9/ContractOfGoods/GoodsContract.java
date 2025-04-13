@@ -1,10 +1,10 @@
-package Homework_8.AdditionTasks.ContractOfGoods;
+package Homework_9.ContractOfGoods;
 
-import Homework_8.AdditionTasks.Document;
+import Homework_9.Document;
 import java.util.Date;
 
 public class GoodsContract implements Document {
-	private int documentNumber;
+	private String documentNumber;
 	private String productType;
 	private int productQuantity;
 	private Date documentDate; //Класс java.util.Date. Хранит дату в миллисекундах, “Unix-время”
@@ -16,11 +16,15 @@ public class GoodsContract implements Document {
 	public GoodsContract() {}
 
 	//конструктор с параметрами
-	public GoodsContract(int documentNumber, String productType, int productQuantity, Date documentDate) {
+	public GoodsContract(String documentNumber, String productType, int productQuantity, Date documentDate) {
 		this.documentNumber = documentNumber;
 		this.productType = productType;
 		this.productQuantity = productQuantity;
 		this.documentDate = documentDate;
+	}
+
+	public String getDocumentNumber() {
+		return documentNumber;
 	}
 
 	@Override

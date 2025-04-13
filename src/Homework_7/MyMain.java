@@ -6,9 +6,9 @@ public class MyMain {
 
 	public static void main(String[] args){
 
-	Phone mobileFirst = new Phone("+ 123-345-345", "AS-45", 45);
-	Phone mobileSecond = new Phone("+ 234-456-456", "DD-678");
-	Phone mobileThird = new Phone();
+		Phone mobileFirst = new Phone("+ 123-345-345", "AS-45", 45);
+		Phone mobileSecond = new Phone("+ 234-456-456", "DD-678");
+		Phone mobileThird = new Phone();
 		System.out.println("Info for first phone: number is " + mobileFirst.getNumber() +
 				" , model is " + mobileFirst.getModel() + " , weight is " + mobileFirst.getWeight());
 
@@ -21,17 +21,17 @@ public class MyMain {
 		System.out.println("**************************************************************************");
 
 
-	mobileFirst.receiveCall("Olga");
-	mobileSecond.receiveCall("Dima");
-	mobileThird.receiveCall("Liya");
+		mobileFirst.receiveCall("Olga");
+		mobileSecond.receiveCall("Dima");
+		mobileThird.receiveCall("Liya");
 
-	System.out.println("**************************************************************************");
+		System.out.println("**************************************************************************");
 
-	mobileFirst.receiveCall("Olga", mobileFirst.getNumber());
+		mobileFirst.receiveCall("Olga", mobileFirst.getNumber());
 
-	System.out.println("**************************************************************************");
+		System.out.println("**************************************************************************");
 
-	mobileFirst.sendMessage(mobileFirst.getNumber(), mobileSecond.getNumber(), mobileThird.getNumber());
+	mobileFirst.sendMessage(mobileFirst.getNumber(), mobileSecond.getNumber());
 
 	}
 
